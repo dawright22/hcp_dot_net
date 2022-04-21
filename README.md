@@ -23,8 +23,11 @@ For complete instructions, visit the following links:
 
 ## Declare these in your shell
  VAULT_ADDR="https://vault-cluster.vault.6d623add-819e-482c-af56-fa72eaeef9ee.aws.hashicorp.cloud:8200"
+ 
  VAULT_NAMESPACE="admin"
+ 
  VAULT_TOKEN="s.k4bgdhV30SnUGy0oIX8ayvHa.VohFy"
+ 
  db="vault-demo.australiaeast.cloudapp.azure.com"
 
 ## Demo Script Guide
