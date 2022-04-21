@@ -14,7 +14,7 @@ vault kv put projects-api/secrets/static 'password=Testing!123'
 
 vault write projects-api/database/config/projects-database \
 	 	plugin_name=mssql-database-plugin \
-	 	connection_url='sqlserver://{{username}}:{{password}}@db:1433' \
+	 	connection_url='sqlserver://{{username}}:{{password}}@$db:1433' \
 	 	allowed_roles="projects-api-role" \
 	 	username="sa" \
 	 	password="Testing!123"
