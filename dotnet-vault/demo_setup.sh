@@ -1,7 +1,8 @@
 #!/bin/bash
 export db=$(echo $db)
+export VAULT_ADDR=$(echo $VAULT_ADDR)
 
-echo "Connecting to your HCP Vault server at $db"
+echo "Connecting to your HCP Vault server at $VAULT_ADDR"
 
 docker-compose up -d --build
 
