@@ -1,4 +1,4 @@
-# HashiCorp Vault with .NET Example
+# HashiCorp Cloud Platform Vault with .NET Example
 
 These assets are provided to show how to use HashiCorp Vault with .NET.
 It uses two patterns:
