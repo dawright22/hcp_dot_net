@@ -2,7 +2,7 @@ pid_file = "/vault/ProjectApi/vault-agent/pidfile"
 export VAULT_ADDR=$(echo $VAULT_ADDR)
 
 vault {
-  address = "http://vault:8200"
+  address = "http://$VAULT_ADDR:8200"
 }
 
 auto_auth {
