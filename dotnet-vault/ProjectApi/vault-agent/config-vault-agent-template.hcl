@@ -1,4 +1,5 @@
 pid_file = "/vault/ProjectApi/vault-agent/pidfile"
+export VAULT_ADDR=$(echo $VAULT_ADDR)
 
 vault {
   address = "http://vault:8200"
