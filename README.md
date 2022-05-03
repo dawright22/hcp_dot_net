@@ -20,6 +20,7 @@ For complete instructions, visit the following links:
 - [Docker](https://docs.docker.com/get-docker/)
 - [.NET 5.0+](https://dotnet.microsoft.com/download/dotnet/5.0)
 - [VaultSharp](https://github.com/rajanadar/VaultSharp)
+- Vault
 
 ## Declare these in your shell
  VAULT_ADDR="https://vault-cluster.vault.6d623add-819e-482c-af56-fa72eaeef9ee.aws.hashicorp.cloud:8200"
