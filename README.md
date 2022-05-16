@@ -22,12 +22,12 @@ For complete instructions, visit the following links:
 - [VaultSharp](https://github.com/rajanadar/VaultSharp)
 - Vault
 
-sudo su
-apt-get update
-snap install docker
-apt-get docker-compose
-snap install vault
-snap install --channel=5.0 dotnet-sdk --classic
+- sudo su
+- apt-get update
+- snap install docker
+- apt-get docker-compose
+- snap install vault
+- snap install --channel=5.0 dotnet-sdk --classic
 
 ## Declare these in your shell
  VAULT_ADDR="https://vault-cluster.vault.6d623add-819e-482c-af56-fa72eaeef9ee.aws.hashicorp.cloud:8200"
