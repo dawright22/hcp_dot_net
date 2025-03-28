@@ -34,7 +34,7 @@ For complete instructions, visit the following links:
  
  VAULT_NAMESPACE="admin"
  
- VAULT_TOKEN="s.k4bgdhV30SnUGy0oIX8ayvHa.VohFy"
+ VAULT_TOKEN=""
  
  db="vault-demo.australiaeast.cloudapp.azure.com"
 
